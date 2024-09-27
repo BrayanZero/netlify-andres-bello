@@ -1,0 +1,887 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+ }
+
+
+ .barr-blue {
+     width: 100%;
+     height: 40px;
+     background: #000000; 
+     color: #ffffff;
+ }
+ 
+ .box-p {
+     margin-left: 150px;
+ }
+ 
+ .barr-blue p  {
+    color: #ffffff;
+    font-size: 13px;
+    display: inline-block;
+    margin-left: 10px;
+ }
+ 
+ .barr-blue p:hover {
+     color: #00ffffe7;
+     
+ }
+ 
+ .icon {
+     margin: 2px 0 2px 20px;
+ }
+ 
+ ul {
+     margin-left: 220px;
+     width: 750px;
+     color: #ffffff;
+ }
+ 
+ ul li a {
+      text-decoration: none;
+      color: #ffffff;
+ }
+ 
+ li {
+     width: max-content;
+     display:inline-block;
+     list-style: none;
+     margin: 7px 15px;
+     text-align: center;
+     padding: 8px 8px;
+     font-size: 20px;
+     font-weight: 800; 
+     border-radius: 4px;
+ }
+ 
+ ul li a:hover {
+     background-color:  #ffffff;
+     padding: 8px;
+     border-radius: 4px;
+     box-shadow: 7px 1px 6px #000000;
+     color: #410505;
+ }
+ 
+ nav {
+     width: 100%;
+     height: 90px;
+     display: flex; 
+     background: #410505;
+ }
+ 
+ div.box-logo {
+     width: 80px;
+     height: 70px;
+     margin-top: 10px;
+     margin-left: 250px;
+ }
+ 
+ .Logo{
+     width: 70px;
+     height: 70px;
+     margin: 0 5px;
+ }
+ 
+ /* section two styles*/ /* section two styles*/ /* section two styles*/
+ 
+ .section-two {
+     width: 100%;
+     height: 580px;
+     color: #000000;
+     background: linear-gradient(#05070c4d, #05070c4d), url(./img/WhatsApp\ Image\ 2024-02-26\ at\ 8.45.55\ PM.jpeg) no-repeat;
+     background-size: cover;
+     background-position: 0 -380px;
+     object-fit: cover;
+     border: 1px solid #000;
+ }
+ 
+ .section-two .box-title {
+     margin: 150px 0 auto 40px;
+    
+ }
+ 
+ .box-title h1 {
+     color: #000000;
+     margin-bottom: 10px;
+     font-size: 60px;
+     font-weight: 800;
+     font-family: "Lobster", "borel"; 
+ }
+ 
+ .container-h1 {
+     width: max-content;
+     height: max-content;
+     background: #ffffff;
+     border-radius: 4px;
+ }
+ 
+ .container-h2 {
+     width: max-content;
+     height: 28px;
+     background: #ffffff;
+     border-radius: 4px;
+     margin-bottom: 70px;
+ }
+ 
+ .box-title h2 {
+     font-weight: 700;
+ } 
+ 
+ .box-button {
+     margin-left: 50px;    
+ }
+ 
+ .box-button .botton-inscribete {
+     padding: 12px;
+     font-size: 18px;
+     font-weight: 700;
+     color: #ffffff;
+     background: #410505;
+     border-radius: 5px;
+     box-shadow: 4px 3px 3px  black;
+     border: 1px solid transparent;
+ }
+ 
+ .box-button .botton-inscribete:hover {
+     color: #000000;
+     background: linear-gradient(160deg,  #2af5ff 40%, #21b5f0 80%);
+ }
+ 
+ /* section tree styles*/ /* section tree styles*/ /* section tree styles*/
+ 
+ .section-tree {
+     width: 100%;
+     height: 580px;
+     background: #ecebeb;
+ }
+ 
+ article {
+     width: 590px;
+     height: 500px;
+     margin: 30px auto auto 70px;
+     float: left;
+     
+ }
+ 
+ article h2 {
+    font-size: 42px;
+    color: #410505;
+    text-decoration: underline; /* Subrayado */
+    text-decoration-color: #05070ce6; /* Color del subrayado */
+    padding-left: 40px;
+}
+
+article p.parr {
+    color: #555252ef;
+    font-size: 20px;
+    line-height: 1.5; /* Ajustado para mejor legibilidad, o 30px si prefieres un valor fijo */
+    padding-left: 40px;
+}
+
+ 
+ aside {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 59vh; /* Ajusta según el tamaño que necesites */
+}
+
+.imagen {
+    width: 700px;
+    height: 360px;
+    background: url(.//img/estudiantes-bachillerato.jpg) no-repeat center center;
+    background-size: contain;
+    border-radius: 40px;
+}
+
+ 
+ /* section franja styles*/ /* section franja styles*/ /* section franja styles*/
+ 
+ .franja {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around; /* Ajuste para distribuir los iconos uniformemente */
+    align-items: center; /* Centra verticalmente los iconos */
+    border: 1px solid #410505;
+    background: #410505;
+}
+
+.franja .icon {
+    margin: 0 40px; /* Reduce el margen para permitir más espacio dentro de la franja */
+    flex: 1; /* Permite que cada icono tome el mismo espacio disponible */
+    text-align: center;
+}
+
+.icon p {
+    text-align: center;
+    color: #c3c6d1;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.icon h3 {
+    width: max-content;
+    margin: 30px auto 0 auto;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.franja .icon i {
+    color: #c3c6d1;
+    font-size: 42px;
+    margin: 0 auto 10px; /* Ajuste para centrar el icono dentro de su contenedor */
+}
+
+.franja .years {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    color: #ffffff;
+    font-size: 42px;
+}
+.franja {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    justify-content: space-around; /* Ajuste para distribuir los iconos uniformemente */
+    align-items: center; /* Centra verticalmente los iconos */
+    border: 1px solid #410505;
+    background: #410505;
+}
+
+.franja .icon {
+    margin: 0 40px; /* Reduce el margen para permitir más espacio dentro de la franja */
+    flex: 1; /* Permite que cada icono tome el mismo espacio disponible */
+    text-align: center;
+}
+
+.icon p {
+    text-align: center;
+    color: #c3c6d1;
+    font-size: 20px;
+    margin: 10px 0 0;
+}
+
+.icon h3 {
+    width: max-content;
+    margin: 30px auto 0 auto;
+    color: #ffffff;
+    font-size: 40px;
+}
+
+.franja .icon i {
+    color: #c3c6d1;
+    font-size: 42px;
+    margin: 0 auto 10px; /* Ajuste para centrar el icono dentro de su contenedor */
+}
+
+.franja .years {
+    width: max-content;
+    height: max-content;
+    margin: auto;
+    color: #ffffff;
+    font-size: 42px;
+}
+
+ 
+ /* section four styles*/ /* section four styles*/ /* section four styles*/
+ 
+ .section-four {
+    width: 100%;
+    height: auto; /* Cambiado a auto para adaptarse al contenido */
+    padding: 40px 20px; /* Añadido padding para espacio interior */
+}
+
+h2.gale {
+    margin-top: 50px;
+    text-align: center;
+    font-size: 35px;
+    color: #05070ce6;
+    text-decoration: underline; /* Ajustado para eliminar color innecesario */
+    text-decoration-color: #410505; /* Color del subrayado */
+}
+
+.galeria {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap; /* Permite que los elementos se ajusten en varias filas si es necesario */
+    margin-top: 50px;
+}
+
+.galeria .box {
+    text-align: center;
+    margin: 0 15px; /* Añadido margen para separación entre las cajas */
+}
+
+.galeria img {
+    width: 340px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.galeria .box h3 {
+    color: #410505;
+    font-size: 26px;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: underline; /* Ajustado para eliminar color innecesario */
+    text-decoration-color: #05070ce6; /* Color del subrayado */
+}
+
+.box-button2 {
+    display: flex;
+    justify-content: center; /* Centra el botón horizontalmente */
+    margin-top: 30px; /* Espacio encima del botón */
+}
+
+.box-button2 input {
+    padding: 12px 20px; /* Ajustado padding para un mejor tamaño del botón */
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    background: #410505;
+    border-radius: 5px;
+    box-shadow: 4px 3px 3px black;
+    border: 1px solid transparent;
+    cursor: pointer; /* Añadido cursor pointer para interactividad */
+}
+
+.box-button2 input:hover {
+    color: #000000;
+    background: linear-gradient(180deg, #2af5ff 30%, #28c2ff 100%);
+}
+
+ 
+ 
+ 
+ /* section five styles*/ /* section five styles*/ /* section five styles*/
+ 
+ .section-ponte-en-contacto {
+    width: 100%;
+    min-height: 520px; /* Cambiado a min-height para adaptarse al contenido */
+    background-image: url(.//img/hello@rallygreatsite.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center; /* Centra verticalmente el contenido */
+    justify-content: space-between; /* Espacia los elementos dentro de la sección */
+    padding: 20px; /* Añade espacio alrededor del contenido */
+    box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
+}
+
+.box-left, .box-right {
+    width: 48%; /* Ajustado para dar espacio entre las columnas */
+    box-sizing: border-box; /* Asegura que el padding y los bordes no afecten el tamaño total */
+}
+
+
+.cajon {
+    width: 100%;
+    max-width: 600px;
+    background: #000000;
+    border: 1px solid black;
+    border-radius: 48px;
+    padding: 20px;
+    box-sizing: border-box; /* Incluye el padding en el ancho y alto total */
+    margin: 0 auto; /* Centra el contenedor */
+}
+
+.caja-h3 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.caja-h3 h3 {
+    color: #ffffff;
+    margin: 0;
+}
+
+.caja-parr {
+    text-align: center;
+    font-size: 19px;
+    color: #ffffff;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+.caja-label-input, .caja-label-input-2 {
+    width: calc(50% - 20px); /* Ajusta el ancho para las cajas de entrada */
+    margin: 10px;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+.cajaLabel {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#name, #email {
+    width: 100%;
+    height: 30px;
+    font-size: medium;
+    margin-top: 5px;
+    border: 1px solid #410505;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 5px; /* Añadido padding para el campo de entrada */
+}
+
+.caja-label-textarea {
+    width: 50%;
+    margin: 10px 0;
+    box-sizing: border-box;
+}
+
+.caja-textArea {
+    margin-bottom: 10px;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+#textarea {
+    width: 100%;
+    height: 120px; /* Ajustado para mejor visualización */
+    font-size: larger;
+    border: 1px solid #410505;
+    border-radius: 8px;
+    box-sizing: border-box;
+    padding: 10px; /* Añadido padding para el área de texto */
+}
+
+#boton-3 {
+    width: 120px;
+    height: 35px;
+    font-size: medium;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid transparent;
+    background: #410505;
+    color: #ffffff;
+    box-shadow: 5px 3px 5px #000000;
+    cursor: pointer;
+    display: block;
+    margin: 20px auto; /* Centra el botón horizontalmente */
+}
+
+#boton-3:hover {
+    color: #000000;
+    font-size: large;
+    background: linear-gradient(180deg, #ffd60a 30%, #ffc300 100%);
+    border: none;
+}
+
+ 
+ /* section six styles*/ /* section ixn styles*/ /* section six styles*//* section six styles*/ 
+ 
+ .section-six {
+    width: 100%;
+    background: #ecebeb;
+}
+
+#kiko-slider {
+    font-family: sans-serif;
+    margin: auto;
+    background-color: white;
+    max-width: 900px;
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+#kiko-slider > ul, .slide_item {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+#kiko-slider > ul.slider {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    height: 300px;
+}
+
+#kiko-slider > ul.slider h1 {
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#kiko-slider > ul.slider li {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    transition: opacity .5s;
+    background: #fff;
+}
+
+#kiko-slider > ul.slider li img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#kiko-slider > ul.slider li:first-child {
+    opacity: 1; /* Mostrar el primer <li> */
+}
+
+#kiko-slider > ul.slider li:target {
+    opacity: 1; /* Mostrar el <li> del enlace que pulsemos */
+}
+
+#kiko-slider > .menu {
+    text-align: center;
+    margin: 20px;
+}
+
+#kiko-slider > .menu li {
+    display: inline-block;
+    text-align: center;
+}
+
+#kiko-slider > .menu li a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    background-color: #000000;
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    border-radius: 50%; /* Ajustado a 50% para asegurar un círculo perfecto */
+}
+
+ /* section seven styles*/ /* section seven styles*/ /* section seven styles*//* section seven styles*/ 
+ 
+ .section-seven {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url(.//img/wave.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background: #ecebeb;
+}
+
+.box-footer {
+    width: 300px;
+    height: 320px;
+    margin: 40px;
+}
+
+.box-footer .ilustracion {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    left: -50px;
+    top: -20px;
+    border-radius: 0 50px 0 50px;
+}
+
+.box-footer .ilustracion-2 {
+    width: 190px;
+    height: 190px;
+    position: relative;
+    left: 140px;
+    bottom: 42px;
+    border-radius: 0 50px 0 50px;
+} 
+
+.box-footer .foot {
+    width: 260px;
+    margin: 15px auto ;
+    color: #555252ef;
+}
+
+.box-footer .foot:hover {
+    cursor: pointer;
+}
+
+.box-footer .foot:hover {
+    color: #000000;
+}
+
+.copy-right {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    color: #ffffff;
+    font-size: large;
+    border: 1px solid black;
+    background: #000000;
+}
+
+.copy-right p{
+    width: 600px;
+    margin: 8px auto;
+}
+
+.copy-right p:hover {
+    color: #00ffffe7;
+    cursor: pointer;
+}
+
+.img-svg {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.icon-facebook {
+    width: 40px;
+    height: 40px;
+    margin-left: 20px;
+    float: left;
+
+}
+
+.icon-whatsapp {
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    float: left;
+    color: #169464;
+}
+
+.foot-img {
+    width: 60px;
+    height: 60px;
+    margin: 10px 20px;
+}
+
+.foot-img:hover {
+    width: 62px;
+    height: 62px;
+    margin-left: 22px;
+}
+
+.fa-brands {
+    margin: 7px;
+    font-size: 25px;
+}
+
+.fa-brands:hover {
+    font-size: 27px;
+    opacity: 0.6;
+}
+
+.fa-square-whatsapp {
+    font-size: 28px;
+    color: #1ebe63;
+    margin-top: 6px;
+}
+
+.fa-square-whatsapp:hover {
+    font-size: 30px;
+    opacity: 0.9;
+}
+
+.box-footer .foot-2 {
+    width: 200px;
+    font-size: 17px;
+    margin: 10px auto;
+    
+}
+
+.box-footer .foot-2:hover {
+    color: #000000;
+}
+
+.box-footer .enlaces-rapidos {
+    width: 200px;
+    margin: 20px auto 35px;
+
+}
+
+hr {
+    width: 250px;
+    margin-inline-start: 45px;
+    margin-bottom: 10px;
+}
+
+.box-footer > a {
+    color: #555252ef;
+    text-decoration: none;
+}
+
+
+/* Media Queries para diferentes tamaños de pantalla */
+@media  (max-width: 1200px) {
+    .box-p {
+        margin-left: 50px;
+    }
+    nav {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+    }
+    div.box-logo {
+        margin-left: 0;
+        margin-bottom: 20px;
+    }
+    ul {
+        margin-left: 0;
+        text-align: center;
+    }
+    ul li {
+        margin: 5px 10px;
+        font-size: 18px;
+    }
+    .section-two {
+        height: auto;
+        background-position: center;
+    }
+    .box-title {
+        margin: 100px 0 auto 20px;
+        text-align: center;
+    }
+    .box-button {
+        margin-left: 0;
+        text-align: center;
+    }
+    article {
+        width: 100%;
+        margin: 30px auto;
+    }
+    aside .imagen {
+        width: 100%;
+        height: auto;
+    }
+    .franja {
+        flex-direction: column;
+        height: auto;
+    }
+    .franja .icon {
+        margin: 10px 0;
+        flex: none;
+    }
+    .galeria {
+        flex-direction: column;
+        align-items: center;
+    }
+    .galeria .box {
+        margin-bottom: 30px;
+    }
+    
+    .box-footer {
+        margin: 20px 0;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .box-p {
+        margin-left: 20px;
+    }
+    nav {
+        height: auto;
+    }
+    ul {
+        width: 100%;
+    }
+    li {
+        font-size: 16px;
+    }
+    .section-two {
+        padding: 20px;
+    }
+    .box-title {
+        margin: 50px 0;
+    }
+    .box-button .botton-inscribete {
+        width: 100%;
+    }
+    article, aside {
+        width: 100%;
+        float: none;
+    }
+    .section-tree {
+        height: auto;
+    }
+    .section-four h2.gale {
+        font-size: 28px;
+    }
+    .galeria img {
+        width: 100%;
+        height: auto;
+    }
+    .franja .icon i {
+        font-size: 36px;
+    }
+    
+    .copy-right p {
+        width: 90%;
+    }
+}
+
+@media (max-width: 580px) {
+    nav {
+        flex-direction: column;
+        height: auto;
+    }
+    ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+    }
+    li {
+        font-size: 14px;
+        margin: 5px;
+    }
+    .section-two {
+        padding: 10px;
+    }
+    .box-title h1 {
+        font-size: 32px;
+    }
+    .box-title h2 {
+        font-size: 20px;
+    }
+    .box-button .botton-inscribete {
+        font-size: 16px;
+        padding: 10px;
+    }
+    article h2 {
+        font-size: 32px;
+    }
+    article p.parr {
+        font-size: 18px;
+    }
+    .section-four h2.gale {
+        font-size: 24px;
+    }
+    .galeria .box h3 {
+        font-size: 20px;
+    }
+    
+    .box-footer {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .copy-right p {
+        font-size: 14px;
+        text-align: center; /* Centra el texto */
+        padding: 10px 20px; /* Ajusta el padding si es necesario */
+        width: 100%; /* Asegura que ocupe todo el ancho */
+        box-sizing: border-box; /* Asegura que padding y border se incluyan en el ancho */
+    }
+}
